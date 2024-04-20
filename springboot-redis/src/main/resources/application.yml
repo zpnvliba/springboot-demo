@@ -1,0 +1,16 @@
+#spring:
+#  redis:
+#    host: localhost
+#    port: 6379
+#    password:
+# application.yml
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+# 用户服务URL
+user:
+  service:
+    url: localhost:8082
